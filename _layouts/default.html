@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ "/img/emilia.jpg" | absolute_url }}">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180x180.png">
+  <link rel="mask-icon" href="img/favicon.svg" color="#5bbad5">
+  <link rel="manifest" href="img/site.webmanifest">
+  <meta name="msapplication-config" content="img/browserconfig.xml">
+</head>
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+</html>

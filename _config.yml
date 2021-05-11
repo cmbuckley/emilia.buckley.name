@@ -1,0 +1,8 @@
+title: Emilia Buckley
+description: Hi, I’m Emilia Buckley, and this is my Web site!
+url: https://emilia.buckley.name
+
+exclude:
+  - CNAME
+  - Gemfile
+  - vendor
