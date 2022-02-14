@@ -6,3 +6,8 @@ exclude:
   - CNAME
   - Gemfile
   - vendor
+
+social:
+  linkedin:
+    text: LinkedIn
+    url: https://www.linkedin.com/in/emiliabuckley

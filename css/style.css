@@ -26,6 +26,22 @@ body {
     margin-left: 1em;
 }
 
+.social {
+    position: absolute;
+    bottom: 0.75ex;
+    font-size: 1.4em;
+    list-style: none;
+    display: inline;
+}
+
+.social a {
+    color: #e730e7;
+}
+
+.social a:hover {
+    color: #ff00ff;
+}
+
 
 @media screen and (min-width: 500px) {
     .container {

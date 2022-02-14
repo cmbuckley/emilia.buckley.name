@@ -5,3 +5,9 @@ layout: default
       <p>Hi, my name is</p>
       <h1>{{ site.title }}</h1>
     </div>
+
+    <ul class="social">
+    {%- for social in site.social %}
+      <li><a href="{{ social[1].url }}" title="{{ social[1].text }}"><i class="fab fa-{{ social[0] }}"></i></a></li>
+    {%- endfor %}
+    </ul>
