@@ -8,6 +8,6 @@ layout: default
 
     <ul class="social">
     {%- for social in site.social %}
-      <li><a href="{{ social[1].url }}" title="{{ social[1].text }}"><i class="fab fa-{{ social[0] }}"></i></a></li>
+      <li><a href="{{ social[1].url }}" title="{{ social[1].text }}"><i class="{{ social[1].type | default: 'fas' }} fa-{{ social[0] }}"></i></a></li>
     {%- endfor %}
     </ul>

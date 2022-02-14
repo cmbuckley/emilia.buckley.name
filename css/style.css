@@ -31,7 +31,11 @@ body {
     bottom: 0.75ex;
     font-size: 1.4em;
     list-style: none;
+}
+
+.social li {
     display: inline;
+    margin: 5px;
 }
 
 .social a {

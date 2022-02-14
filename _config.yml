@@ -9,5 +9,9 @@ exclude:
 
 social:
   linkedin:
+    type: fab
     text: LinkedIn
     url: https://www.linkedin.com/in/emiliabuckley
+  file-pdf:
+    text: CV
+    url: https://docs.google.com/document/d/1rFWAqZL5bflf41XSFfoArD9quuI2CLBatLxXhKN7I_o/export?format=pdf
