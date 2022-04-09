@@ -31,11 +31,12 @@ body {
     bottom: 0.75ex;
     font-size: 1.4em;
     list-style: none;
+    padding-left: 5px;
 }
 
 .social li {
     display: inline;
-    margin: 5px;
+    margin: 5px 7px;
 }
 
 .social a {
