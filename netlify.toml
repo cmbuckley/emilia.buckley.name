@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/cv.pdf"
+  to = "https://docs.google.com/document/d/1rFWAqZL5bflf41XSFfoArD9quuI2CLBatLxXhKN7I_o/export?format=pdf"
+  status = 302
