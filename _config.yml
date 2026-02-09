@@ -9,9 +9,8 @@ exclude:
 
 social:
   linkedin:
-    type: fab
-    text: LinkedIn
+    text: Emilia Buckley on LinkedIn
     url: https://www.linkedin.com/in/emiliabuckley
-  user-graduate:
-    text: CV
+  profile:
+    text: Emilia Buckley’s CV
     url: /cv.pdf
