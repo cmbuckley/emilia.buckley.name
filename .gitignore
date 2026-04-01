@@ -1,5 +1,6 @@
-Gemfile.lock
-.sass-cache
 _site
+.bundle
+.sass-cache
 vendor
+Gemfile.lock
 _staging.yml
